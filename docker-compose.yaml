@@ -1,0 +1,7 @@
+services:
+  express-app:
+    image: nuwaninfo/ex_3_1_express_app
+    ports:
+     - 8080:8080
+    build: .
+    container_name: ex_3_1_express_app
